@@ -3,4 +3,6 @@
 .RData
 .Ruserdata
 
-notebooks/*.html
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
