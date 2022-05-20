@@ -41,3 +41,16 @@ $$ \large
 & \sigma_P \sim \sigma_B \sim \sigma_S \sim \sigma_W
 \end{align}
 $$
+
+### The complete model:
+$$
+\begin{align}
+& V_i | N_i, \Pi_i \sim \text{Multinomial}(N_i, \Pi_i) \\
+& \text{softmax}^{-1}(\Pi_i) = P_{t_i} + B_{h_i} + S_i \\
+& P_t = P_{t+1} + W_t \\
+& W_t \sim N(0,\Sigma_W) \\
+& P_T \sim N(\mu_P, \sigma_P^2 I) \\
+& B_{h} \sim N(0, \sigma_B^2 I) \\
+& S_{i} \sim N(0, \sigma_S^2 I) \\
+\end{align}
+$$
