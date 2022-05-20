@@ -14,11 +14,19 @@ $$\large V_i | N_i, \Pi_i \sim \text{Multinomial}(N_i, \Pi_i)$$
 
 ### Components of polled voters' preferences
 
+<<<<<<< HEAD
 $$\large \text{softmax}^{-1}(\Pi_i) = \underbrace{P_{t_i}}_{\text{Real Pref.}} + \underbrace{B_{h_i}}_{\text{House Effect}} + \underbrace{S_i}_{\text{Shocks/Error}}$$
 
 ### Reverse dynamics for voter's real preferences
 
 $$\large \underbrace{P_t}_{\text{Pref. This Week}} = \underbrace{P_{t+1}}_{\text{Pref. Next Week}} + \underbrace{W_t}_{\text{Shocks/Innovations}}$$
+=======
+$$\large \text{softmax}^{-1}(\Pi_i) = \underbrace{P_{t_i}}_{\small \text{Real Pref.}} + \underbrace{B_{h_i}}_{\small \text{House Effect}} + \underbrace{S_i}_{\small \text{Shocks/Error}}$$
+
+### Reverse dynamics for voter's real preferences
+
+$$\large \underbrace{P_t}_{\small \text{Pref. This Week}} = \underbrace{P_{t+1}}_{\small \text{Pref. Next Week}} + \underbrace{W_t}_{\small \text{Shocks/Innovations}}$$
+>>>>>>> 176aebb (Add initial model explanation)
 
 ### Prior for components
 
